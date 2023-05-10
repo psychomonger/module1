@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* George E. Mitchell
+ * 202320 Object Oriented Programming COP-3330C-25749
+ * Final Programming Project
+ */
+
+*{
+	font-family: arial;
+}
+
+section{
+	width: 80%;
+	margin-bottom: 25px;
+	border: 0px solid #000000;
+}
+
+h1{
+	color: blue;
+	font-size: 22px;
+}
+
+h2{
+	color: red;
+	font-size: 18px;
+}
+
+p{
+	font-size: 16px;
+}
+
+input[type=text]{
+	background-color: #F8F8F8;
+	width: 80%;
+	margin: 10px;
+}
+
+input[type=submit]{
+	clear: both;
+	margin: 10px;
+}
+
+input[type=submit]:hover{
+	cursor: pointer;
+}
+
+fieldset{
+	border-radius: 5px;
+	padding: 10px;
+}
+
+table.heading{
+	width: 100%;
+	color: blue;
+	border: 1px solid #000000;
+}
+
+table.heading td{
+	border: 1px solid #000000;
+	width: 33%;	
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+table.problemContainer{
+	border: 1px solid #000000;
+	width: 80%;
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 50px;
+}
+
+table.problemContainer td{
+	border: 1px solid #000000;
+	width: 33%;
+	text-align: center;
+	font-weight: bold;
+	padding: 25px;
+	font-size: 40px;
+}
+
+
+table.answerContainer{
+	border: 1px solid #000000;
+	width: 80%;
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 50px;
+}
+
+table.answerContainer td{
+	border: 1px solid #000000;
+	width: 25%;
+	text-align: center;
+	font-weight: bold;
+	padding: 25px;
+	font-size: 30px;
+}
+
+table.answerContainer td input[type=submit]{
+	width: 150px;
+	height: 50px;
+	font-size: 15px;
+	margin-top: 20px;
+	font-weight: bold;
+	
+}
+
+table.resultsContainer{
+	border: 1px solid #000000;
+	width: 80%;
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 50px;
+}
+
+table.resultsContainer th{
+	border: 1px solid #000000;
+	background-color: lightgray;
+	/*width: 20%;*/
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 15px;
+}
+
+table.resultsContainer td{
+	border: 1px solid #000000;
+	width: 20%;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 15px;
+}
+
+
+table.reportContainer{
+	border: 1px solid #000000;
+	width: 80%;
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 50px;
+}
+
+table.reportContainer th{
+	border: 1px solid #000000;
+	background-color: lightgray;
+	width: 25%;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 15px;
+}
+
+table.reportContainer td{
+	border: 1px solid #000000;
+	width: 25%;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+
